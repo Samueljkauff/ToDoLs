@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/local_collection_driver.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/collection.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/connection_options.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/doc_fetcher.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/mongo_driver.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/mongo_utils.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/observe_multiplex.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/oplog_observe_driver.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/oplog_tailing.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/oplog_v2_converter.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/polling_observe_driver.js",
+        "/home/woopi/.meteor/packages/mongo/2.0.2/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/woopi/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/woopi/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/home/woopi/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/home/woopi/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/home/woopi/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/home/woopi/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/woopi/.meteor/packages/ecmascript/0.16.10/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/woopi/.meteor/packages/shell-server/0.6.1/web.browser/main.js",
+        "/home/woopi/.meteor/packages/shell-server/0.6.1/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/woopi/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/home/woopi/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/home/woopi/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
